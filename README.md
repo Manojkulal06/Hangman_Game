@@ -9,7 +9,7 @@ This project is implemented using HTML, CSS, and JavaScript.
 -> __JavaScript:__ Game logic, including letter validation, word generation, and user interaction handling.<br>
 
 **Usage** <br>
-__Start the Game:__
+__Start the Game:__ <br>
 -> Open the __index.html__ file in your web browser.<br>
 -> Click the play button to begin.<br>
 
