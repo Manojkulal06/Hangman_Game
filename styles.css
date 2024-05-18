@@ -1,0 +1,213 @@
+/* Default Light Theme */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
+    margin: 0;
+    background-image: url(parallel.webp);
+    padding: 0;
+    color: #dd9b9b; /* Text color */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    perspective: 1px; /* Enable 3D perspective */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    color: #686161;
+}
+
+#wordDisplay {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#hint {
+    margin-top: 10px;
+}
+
+#guessInput {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0af4c;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+#hangman-container {
+    background: radial-gradient(circle, #f5d557, #f8aa96);
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #686161; 
+}
+
+p {
+    color: #686161;
+}
+
+label {
+    color: #686161;
+}
+
+#hangman-container h1,
+#hangman-container h2,
+#hangman-container h3,
+#hangman-container h4,
+#hangman-container h5,
+#hangman-container h6 {
+    font-size: 1.5em;
+}
+
+#hangman-container p {
+    font-size: 1.2em;
+}
+
+#hangman-container button {
+    font-size: 0.6em;
+}
+
+.category-selection {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.category-selection h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.category-selection p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.category-selection label {
+    font-size: 20px;
+}
+
+.category-selection select {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.category-selection button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-selection button:hover {
+    background-color: #45a049;
+}
+
+#keyboard {
+    margin-top: 20px;
+}
+
+.keyboard-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keyboard-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background: #333; /* Dark gray background for buttons */
+    color: #fff; /* White text color for buttons */
+    cursor: pointer;
+    margin: 10px 2px 2px 2px; /* Adjust the spacing between buttons and add more margin to the top */
+    transition: background-color 1.0s ease; /* Smooth transition on background color change */
+    text-align: center;
+}
+
+.keyboard-btn:hover {
+    background: linear-gradient(135deg, #757575, #333); /* Lighter gradient on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+#hint-container {
+    display: none;
+    margin-top: 50px; /* Add margin-top to create space between hint and keyboard */
+}
+
+#front-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.play-container {
+    text-align: center;
+}
+
+.play-button {
+    cursor: pointer;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #f5dbe8;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    bottom: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #363434;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(270deg); /* Rotate the triangle to make it look like a play button */
+}

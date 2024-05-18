@@ -1,0 +1,13 @@
+/* Dark Theme Styles */
+
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.container.dark {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Add more dark theme styles here */
